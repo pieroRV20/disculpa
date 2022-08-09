@@ -1,0 +1,62 @@
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("imagenes/fondo34.jpg");
+    background-size: 100% 100%;
+}
+
+h3{
+    padding: 0px 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 80px;
+    color: white;
+    z-index: 99;
+}
+
+.fondoBox{
+    position: relative;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.fondoBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+button{
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    background-color: rgb(55, 231, 187);
+    cursor: pointer;
+    color: white;
+}
+
+#vales{
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
